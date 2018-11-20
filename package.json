@@ -1,0 +1,34 @@
+{
+  "name": "domino-page",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rm -rf dist && webpack --mode=production",
+    "dev": "webpack-dev-server --mode=development"
+  },
+  "dependencies": {
+    "@alipay/domino-compiler": "^0.2.0",
+    "antd": "^3.9.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-import": "^1.10.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "json-loader": "^0.5.7",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
